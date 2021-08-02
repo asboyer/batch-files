@@ -1,3 +1,2 @@
 @echo off
-set app=%1
-start %1%
+if %1.==. (start .) else (start %1)
